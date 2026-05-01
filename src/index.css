@@ -8,8 +8,15 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
+    /* Eye Care pastel green theme */
     --background: 0 0% 100%;
-    --foreground: 222.2 84% 4.9%;
+    --foreground: 0 0% 20%;
+    --foreground-soft: 0 0% 40%;
+
+    --eye-primary: 138 36% 75%;        /* #A8D5BA */
+    --eye-primary-foreground: 0 0% 100%;
+    --eye-bg: 122 41% 93%;             /* #E8F5E9 */
+    --eye-accent: 162 41% 88%;         /* #D4EFE6 */
 
     --card: 0 0% 100%;
     --card-foreground: 222.2 84% 4.9%;
