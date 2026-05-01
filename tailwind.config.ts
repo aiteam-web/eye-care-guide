@@ -19,6 +19,13 @@ export default {
         ring: "hsl(var(--ring))",
         background: "hsl(var(--background))",
         foreground: "hsl(var(--foreground))",
+        "foreground-soft": "hsl(var(--foreground-soft))",
+        eye: {
+          DEFAULT: "hsl(var(--eye-primary))",
+          foreground: "hsl(var(--eye-primary-foreground))",
+          bg: "hsl(var(--eye-bg))",
+          accent: "hsl(var(--eye-accent))",
+        },
         primary: {
           DEFAULT: "hsl(var(--primary))",
           foreground: "hsl(var(--primary-foreground))",
